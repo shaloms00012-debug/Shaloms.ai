@@ -1,0 +1,22 @@
+{
+  "name": "shaloms-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "knowledge:setup": "node scripts/setup-knowledge-base.mjs"
+  },
+  "dependencies": {
+    "next": "^15.2.0",
+    "openai": "^4.80.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
